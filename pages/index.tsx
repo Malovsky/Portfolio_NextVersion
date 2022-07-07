@@ -1,11 +1,13 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    // font-mono | font-sans | font-serif
+    <div className="container my-4 mx-4 font-mono">
       <main>
-        <h1>Let&apos;s build a new Portfolio from scratch</h1>
+        <h1 className="text-3xl">
+          Let&apos;s build a new Portfolio from scratch
+        </h1>
         <p>Kevin MASLOWSKI</p>
       </main>
     </div>
